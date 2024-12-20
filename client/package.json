@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.7.2",
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
-    "@mui/material": "^6.1.1",
+    "@mui/material": "^6.2.1",
+    "@mui/x-data-grid": "^7.23.3",
+    "@reduxjs/toolkit": "^2.5.0",
+    "aws-amplify": "^6.11.0",
     "axios": "^1.7.7",
     "date-fns": "^4.1.0",
     "gantt-task-react": "^0.3.9",
@@ -22,9 +26,12 @@
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dom": "^18",
-    "recharts": "^2.12.7"
+    "react-redux": "^9.2.0",
+    "recharts": "^2.12.7",
+    "redux-persist": "^6.0.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.13",
     "@types/node": "^20.16.10",
     "@types/numeral": "^2.0.5",
     "@types/react": "^18",
